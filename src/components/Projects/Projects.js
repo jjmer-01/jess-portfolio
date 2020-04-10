@@ -6,6 +6,7 @@ function Projects(){
             <h2>Projects</h2>
             <div>Personal Project</div>
             <div>Group Project</div>
+            <div>Git Hub Link</div>
         </div>
     )
 }

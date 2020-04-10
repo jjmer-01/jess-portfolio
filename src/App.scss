@@ -1,0 +1,58 @@
+// Header Font options:
+// font-family: 'Nixie One', cursive;
+// font-family: 'Red Hat Display', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Knewave', cursive;
+// font-family: 'Bebas Neue', cursive;
+// font-family: 'Bungee Shade', cursive;
+// font-family: 'Playfair Display', serif;
+// font-family: 'Major Mono Display', monospace;
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  $main-text-color: white;
+  $main-comp-height: 95vh;
+  $main-comp-pad-top: 5vh;
+  
+  #nav-comp {
+    background-color: orange;
+    color: $main-text-color;
+    height: 5vh;
+    min-height: 25px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    flex-direction: row-reverse;
+  }
+  
+  #landing-comp {
+    background-color: #263848;
+    color: $main-text-color;
+    height: $main-comp-height;
+    padding-top: $main-comp-pad-top;
+  }
+  
+  #about-comp {
+    background-color: green;
+    color: $main-text-color;
+    height: $main-comp-height;
+    padding-top: $main-comp-pad-top;
+  }
+  
+  #projects-comp {
+    background-color: blue;
+    color: $main-text-color;
+    height: $main-comp-height;
+    padding-top: $main-comp-pad-top;
+  }
+  
+  #contact-comp {
+    background-color: purple;
+    color: $main-text-color;
+    height: $main-comp-height;
+    padding-top: $main-comp-pad-top;
+  }

@@ -1,0 +1,26 @@
+.nav-menu-opt {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 3px;
+}
+
+.nav-menu-opt:hover {
+    font-size: 16px;
+    color: white;
+    background-color: #263848;
+    border-radius: 10px;
+}
+
+#nav-header-text {
+    padding-top: 5vh;
+    padding-right: 2vw;
+    font-size: 58px;
+    font-family: 'Nixie One', cursive;
+    text-shadow: -2px 2px 2px orangered;
+}
+
+#nav-menu-links {
+    display: flex;
+    color: #263848;
+    align-items: center;
+}
