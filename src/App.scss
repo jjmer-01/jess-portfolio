@@ -8,6 +8,12 @@
 // font-family: 'Playfair Display', serif;
 // font-family: 'Major Mono Display', monospace;
 
+// font-family: 'Abril Fatface', cursive;
+// font-family: 'Noto Serif JP', serif;
+// font-family: 'Prata', serif;
+// font-family: 'Josefin Slab', serif;
+// font-family: 'Ultra', serif;
+
 * {
     margin: 0;
     padding: 0;
@@ -17,17 +23,6 @@
   $main-comp-height: 95vh;
   $main-comp-pad-top: 5vh;
   
-  #nav-comp {
-    background-color: orange;
-    color: $main-text-color;
-    height: 5vh;
-    min-height: 25px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    flex-direction: row-reverse;
-  }
   
   #landing-comp {
     background-color: #263848;
@@ -37,21 +32,25 @@
   }
   
   #about-comp {
-    background-color: green;
+    background-color: #263848;
     color: $main-text-color;
     height: $main-comp-height;
     padding-top: $main-comp-pad-top;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
   }
   
   #projects-comp {
-    background-color: blue;
-    color: $main-text-color;
+    background-color: white;
+    color: #263848;
     height: $main-comp-height;
     padding-top: $main-comp-pad-top;
   }
   
   #contact-comp {
-    background-color: purple;
+    background-color: #263848;
     color: $main-text-color;
     height: $main-comp-height;
     padding-top: $main-comp-pad-top;

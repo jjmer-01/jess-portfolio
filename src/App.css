@@ -3,25 +3,6 @@
   padding: 0;
 }
 
-#nav-comp {
-  background-color: orange;
-  color: white;
-  height: 5vh;
-  min-height: 25px;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: fixed;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
 #landing-comp {
   background-color: #263848;
   color: white;
@@ -30,21 +11,32 @@
 }
 
 #about-comp {
-  background-color: green;
+  background-color: #263848;
   color: white;
   height: 95vh;
   padding-top: 5vh;
+  padding-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #projects-comp {
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: #263848;
   height: 95vh;
   padding-top: 5vh;
 }
 
 #contact-comp {
-  background-color: purple;
+  background-color: #263848;
   color: white;
   height: 95vh;
   padding-top: 5vh;

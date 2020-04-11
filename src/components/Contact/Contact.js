@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div id="contact-comp">
+        <div id="contact-comp" name='contact-comp'>
             <h2>Contact</h2>
             <p>Node Mailer Form?</p>
             <label>First Name:</label>
