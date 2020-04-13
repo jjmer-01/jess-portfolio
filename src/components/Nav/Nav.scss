@@ -1,5 +1,12 @@
-#nav-comp {
-    background-color: orange;
+
+a {
+    // text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#nav {
+    background-color: rgba(255, 255, 255, 0);
     color: white;
     height: 5vh;
     min-height: 25px;
@@ -11,10 +18,12 @@
   }
 
 .nav-menu-opt {
+    background-color: rgba(255, 255, 255, 0);
     padding: 5px;
-    font-family: 'Josefin Slab', serif;
-    font-size: 24px;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 30px;
     margin-left: 3px;
+    color: white;
 }
 
 .nav-menu-opt:hover {
@@ -28,15 +37,17 @@
 #nav-header-text {
     padding-top: 1vh;
     padding-right: 2vw;
-    font-size: 110px;
-    font-family: 'Ultra', serif;
+    font-size: 100px;
+    font-family: 'Rock Salt', cursive; // HEADER
     font-weight: 400;
-    text-shadow: -2px 2px 2px orangered;
+    // text-shadow: -2px 2px 2px orangered;
     color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 #nav-menu-links {
     display: flex;
     color: #263848;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0);
 }

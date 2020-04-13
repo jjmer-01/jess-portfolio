@@ -1,8 +1,9 @@
 h2 {
-    font-family: 'Nixie One', cursive;
-    font-size: 36px;
-    color: orangered;
-    text-shadow: -1px 1px 1px white;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    // text-shadow: -1px 1px 1px white;
     margin: 40px;
     text-align: center;
 }
@@ -42,7 +43,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    background-color: rgba(255, 255, 255, .10);
+    font-family: 'Sen', sans-serif;
+    font-size: 36px;
+    transform: skew(-5deg, -10deg);
+    background-color: #f7c9c9;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects(){
     return(
-        <div id='projects-comp' name='projects-comp'>
+        <div id='projects-comp'>
             <h2>Projects</h2>
             <div>Personal Project</div>
             <div>Group Project</div>
